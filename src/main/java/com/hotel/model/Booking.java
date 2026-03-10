@@ -6,7 +6,7 @@ public class Booking {
     private int nights;
     private double totalAmount;
 
-    //public Booking() {}//для json
+    public Booking() {}//для json
 
     public Booking(Visitor visitor, Room room, int nights) {
         this.visitor = visitor;
